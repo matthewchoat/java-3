@@ -1,6 +1,6 @@
 package concurrency;
 
-enum Color {
+public enum Color {
         //Color end string, color reset
         RESET("\033[0m"),
         // Regular Colors. Normal color, no bold, background color etc.
@@ -22,7 +22,7 @@ enum Color {
         CYAN_BOLD("\033[1;36m"),    // CYAN
         WHITE_BOLD("\033[1;37m"),   // WHITE
         // Underline
-        BLACK_UNDERLINED("\033[4;30m"),     // BLACK
+//        BLACK_UNDERLINED("\033[4;30m"),  // BLACK
 //        RED_UNDERLINED("\033[4;31m"),       // RED
 //        GREEN_UNDERLINED("\033[4;32m"),     // GREEN
 //        YELLOW_UNDERLINED("\033[4;33m"),    // YELLOW

@@ -35,18 +35,14 @@ class Sync extends Thread {
         Sync syncThread = new Sync("sync thread 1", count, nums);
         syncThread.start();
 
-
         Sync syncThread2 = new Sync("sync thread 2", count, nums);
         syncThread2.start();
-
 
         Sync syncThread3 = new Sync("sync thread 3", count, nums);
         syncThread3.start();
 
-
         Sync syncThread4 = new Sync("sync thread 4", count, nums);
         syncThread4.start();
-
 
         Sync syncThread5 = new Sync("sync thread 5", count, nums);
         syncThread5.start();
